@@ -1,0 +1,11 @@
+delimiter ;
+
+CREATE TABLE `PERSON` (
+  `ID` int(11) NOT NULL,
+  `NAME` varchar(64) DEFAULT NULL,
+  `LAST_NAME` varchar(64) DEFAULT NULL,
+  `AGE` smallint(6) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `PERSON` (`ID`,`NAME`,`LAST_NAME`,`AGE`) VALUES (2,'dasd','fasfa',231);
